@@ -1,0 +1,18 @@
+!!! 5
+%html
+  %head
+    %title Change Me
+    %link{:type => 'text/css', :rel => 'stylesheet', :href => 'css/reset.css'}
+    %link{:type => 'text/css', :rel => 'stylesheet', :href => 'css/main.css'}
+    %script{:type => 'text/javascript', :src => 'js/jquery-1.6.min.js'}
+  %body
+    #nav
+      %ul
+        %li
+          %a{:href => '#'} Page One
+        %li
+          %a{:href => '#'} Page Two
+        %li
+          %a{:href => '#'} Page Three
+    #content
+      = yield
